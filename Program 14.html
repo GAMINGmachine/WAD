@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>The Stacking order</title>
+<style type="text/css">
+.layer1Style
+{
+border: solid thick black;
+padding: 1em;
+width:300px;
+background-color:yellow;
+position:absolute;
+top:100px;
+left:200px;
+z-index:0;
+}
+.layer2Style
+{
+border: solid thick red;
+padding: 1em;
+width:300px;
+background-color:BLUE;
+position:absolute;
+top:120px;
+left:220px;
+z-index:0;
+}
+.layer3Style
+{
+border: solid thick green;
+padding: 1em;
+width:300px;
+background-color:purple;
+position:absolute;
+top:140px;
+left:240px;
+z-index:0;
+}
+</style>
+<script type="text/javascript">
+var topLayer="layer3";
+function mover(toTop)
+{
+var oldTop=document.getElementById(topLayer).style;
+var newTop=document.getElementById(toTop).style;
+oldTop.zIndex="0";
+newTop.zIndex="10";
+topLayer=document.getElementById(toTop).id;
+}
+</script>
+</head>
+<body>
+<h2>Stacking of Paragraphs, on mouse click the stack appears on top</h2>
+<div style="z-index: 10;" class="layer1Style" id="layer1"
+onmouseover="mover('layer1')">
+The lives of most inhabitants of Industrailzed Countries, has well as some
+Unindustralizedcountries, have been changed forever by the advent of WWW.
+</div>
+<div style="z-index: 2;" class="layer2Style" id="layer2"
+onmouseover="mover('layer2')">
+The www may seem like magic ,untill you undrestand how it works.The Web is
+accessed through a browser.
+</div>
+<div style="z-index: 0;" class="layer3Style" id="layer3"
+onmouseover="mover('layer3')">
+Windows XP provides many ways for you to communicate with friends, coworkers,
+and Iwith the rest of the world.
+</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style type="text/css">
+student { display:block; font-size:100%; }
+stud-info { display:block; color:green; font-style:italic; font-size:200%; }
+stud1 { display:block; color:blue; font-size:125%;} name { display:block; color: orange; font-size:150% }
+stud2 { display:block; color:red; font-size:150%;}
+stud3 { display:block; color:pink;font-size:175%; } usn,name,nov,branch,you,did
+{ display:block; }
+</style>
+<student>
+<stud-info>Student Information</stud-info>
+34
+<stud1>
+<usn>USN: 3PD12CS024</usn>
+<name>Name: Aashish S</name>
+<noc>College: PDAC of Engineering</noc>
+<branch>Branch: Computer Science and Engineering</branch>
+<yoj>Year: 2012</yoj>
+<eid>Email: aashishh@me.com</eid>
+</stud1>
+<br/>
+<stud2>
+<usn>USN: 3PD12CS025</usn>
+<name>Name: Anish L R</name>
+<noc>College: PDAC OF Engineering</noc>
+<branch>Branch: Computer Science and Engineering</branch>
+<yoj>Year: 2012</yoj>
+<eid>Email: anishh@me.com</eid>
+</stud2>
+<br/>
+<stud3>
+<usn>USN: 3PD12CS006</usn>
+<name>Name: Amal Antony</name>
+<noc>College: PDAC of Engineering of Engineering</noc>
+<branch>Branch: Computer Science and Engineering</branch>
+<yoj>Year: 2012</yoj>
+<eid>Email: amal@me.com</eid>
+</stud3></student>

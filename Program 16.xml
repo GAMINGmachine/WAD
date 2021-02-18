@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style type="text/css">
-student { display:block; font-size:100%; }
-stud-info { display:block; color:green; font-style:italic; font-size:200%; }
-stud1 { display:block; color:blue; font-size:125%;} name { display:block; color: orange; font-size:150% }
-stud2 { display:block; color:red; font-size:150%;}
-stud3 { display:block; color:pink;font-size:175%; } usn,name,nov,branch,you,did
-{ display:block; }
-</style>
+<?xml-stylesheet href="Info.css" type="text/css"?>
 <student>
 <stud-info>Student Information</stud-info>
 34
